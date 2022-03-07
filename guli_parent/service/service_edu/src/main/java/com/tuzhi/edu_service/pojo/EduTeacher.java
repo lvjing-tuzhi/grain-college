@@ -2,9 +2,12 @@ package com.tuzhi.edu_service.pojo;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.io.Serializable;
 import java.time.LocalDateTime;
+import java.util.Date;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -51,13 +54,19 @@ public class EduTeacher implements Serializable {
     private Integer sort;
 
     @ApiModelProperty("逻辑删除 1（true）已删除， 0（false）未删除")
+//    逻辑删除注解
+    @TableLogic
     private Boolean isDeleted;
 
     @ApiModelProperty("创建时间")
-    private LocalDateTime gmtCreate;
+    private Date gmtCreate;
 
     @ApiModelProperty("更新时间")
-    private LocalDateTime gmtModified;
+    private Date gmtModified;
+
+
+
+
 
 
 }
