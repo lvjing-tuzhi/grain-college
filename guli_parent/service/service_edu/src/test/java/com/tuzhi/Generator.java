@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.generator.config.OutputFile;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 import org.apache.ibatis.annotations.Mapper;
 import org.junit.Test;
+import org.springframework.util.StringUtils;
 
 import java.util.Collections;
 

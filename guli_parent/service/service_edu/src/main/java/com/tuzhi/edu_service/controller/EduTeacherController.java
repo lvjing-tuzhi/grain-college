@@ -1,12 +1,15 @@
 package com.tuzhi.edu_service.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.tuzhi.edu_service.pojo.EduTeacher;
+import com.tuzhi.edu_service.pojo.vo.TeacherQuery;
 import com.tuzhi.edu_service.service.IEduTeacherService;
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiImplicitParam;
-import io.swagger.annotations.ApiImplicitParams;
-import io.swagger.annotations.ApiOperation;
+import com.tuzhi.utilcommon.result.Result;
+import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.util.ObjectUtils;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -21,7 +24,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/edu_service/teacher")
-@Api("教师控制层")
+@Api(tags = "教师接口")
 public class EduTeacherController {
 
     @Autowired
@@ -29,15 +32,75 @@ public class EduTeacherController {
 
     @GetMapping("/findAll")
     @ApiOperation("查询所有教师列表")
-    public List<EduTeacher> findAll() {
+    public Result findAll() {
         List<EduTeacher> list = teacherService.list();
-        return list;
+        return Result.ok().data("datas", list);
     }
 
     @DeleteMapping("/{id}")
     @ApiOperation("逻辑删除教师")
-    public boolean removeTeacher(@PathVariable String id) {
+    public Result removeTeacher(@ApiParam(name = "id", value = "教师id") @PathVariable String id) {
         boolean b = teacherService.removeById(id);
-        return b;
+        return Result.ok();
+    }
+
+    @ApiOperation("分页查询教师")
+    @ApiImplicitParams({@ApiImplicitParam(name = "current", value = "当前页"), @ApiImplicitParam(name = "limit", value = "条数")})
+    @GetMapping("/pageTeacher/{current}/{limit}")
+    public Result pageTeacher(@PathVariable Integer current, @PathVariable Integer limit) {
+        Page<EduTeacher> page = new Page<>(current, limit);
+        teacherService.page(page);
+        return Result.ok().data("total", page.getTotal()).data("rows", page.getRecords());
+    }
+
+    @ApiOperation("多条件分页查询")
+    @PostMapping("/pageTeacherCondition/{current}/{limit}")
+    @ApiImplicitParams({@ApiImplicitParam(name = "current", value = "当前页"), @ApiImplicitParam(name = "limit", value = "条数")})
+    public Result pageTeacherConditoin(@PathVariable Integer current, @PathVariable Integer limit
+            , @RequestBody(required = false) TeacherQuery teacherQuery) {
+
+        QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
+        String name = teacherQuery.getName();
+        Integer level = teacherQuery.getLevel();
+        String begin = teacherQuery.getBegin();
+        String end = teacherQuery.getEnd();
+        if (StringUtils.hasLength(name)) {
+            wrapper.like("name", name);
+            System.out.println("进来了");
+        }
+        if (!ObjectUtils.isEmpty(level)) {
+            wrapper.eq("level", level);
+        }
+        if (StringUtils.hasLength(begin)) {
+            wrapper.ge("gmt_create", begin);
+        }
+        if (StringUtils.hasLength(end)) {
+            wrapper.ge("gmt_modified", end);
+        }
+        Page<EduTeacher> page = new Page<>(current, limit);
+        teacherService.page(page, wrapper);
+        return Result.ok().data("total", page.getTotal()).data("rows", page.getRecords());
+    }
+
+    @ApiOperation("添加教师")
+    @PostMapping("/addTeacher")
+    public Result addTeacher(@RequestBody EduTeacher teacher) {
+        boolean save = teacherService.save(teacher);
+        if (save) {
+            return Result.ok();
+        }else {
+            return Result.error();
+        }
+    }
+
+    @ApiOperation("修改教师")
+    @PostMapping("/updateTeacher")
+    public Result updateTeacher(@RequestBody EduTeacher teacher) {
+        boolean update = teacherService.updateById(teacher);
+        if (update) {
+            return Result.ok();
+        }else {
+            return Result.error();
+        }
     }
 }
