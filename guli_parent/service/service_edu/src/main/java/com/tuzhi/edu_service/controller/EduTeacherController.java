@@ -23,7 +23,7 @@ import java.util.List;
  * @since 2022-03-06
  */
 @RestController
-@RequestMapping("/edu_service/teacher")
+@RequestMapping("/eduservice/teacher")
 @Api(tags = "教师接口")
 public class EduTeacherController {
 
