@@ -12,7 +12,7 @@ import lombok.Data;
  **/
 
 @Data
-@ApiModel("教师查询条件")
+@ApiModel("TeacherQuery教师查询条件")
 public class TeacherQuery {
     @ApiModelProperty("姓名")
     private String name;

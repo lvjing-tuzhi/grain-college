@@ -25,6 +25,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/eduservice/teacher")
 @Api(tags = "教师接口")
+@CrossOrigin
 public class EduTeacherController {
 
     @Autowired
@@ -57,7 +58,7 @@ public class EduTeacherController {
     @PostMapping("/pageTeacherCondition/{current}/{limit}")
     @ApiImplicitParams({@ApiImplicitParam(name = "current", value = "当前页"), @ApiImplicitParam(name = "limit", value = "条数")})
     public Result pageTeacherConditoin(@PathVariable Integer current, @PathVariable Integer limit
-            , @RequestBody(required = false) TeacherQuery teacherQuery) {
+            , TeacherQuery teacherQuery) {
 
         QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
         String name = teacherQuery.getName();

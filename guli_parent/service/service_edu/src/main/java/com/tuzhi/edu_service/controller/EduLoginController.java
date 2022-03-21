@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
  * @create: 2022-03-20 19:32
  **/
 
-@Api("用户接口")
+@Api(tags = "用户接口")
 @RestController
 @RequestMapping("/eduservice/user")
 @CrossOrigin
