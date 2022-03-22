@@ -1,5 +1,6 @@
 package com.tuzhi.edu_service.pojo.vo;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

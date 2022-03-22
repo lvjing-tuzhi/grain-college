@@ -58,13 +58,14 @@ public class EduTeacherController {
     @PostMapping("/pageTeacherCondition/{current}/{limit}")
     @ApiImplicitParams({@ApiImplicitParam(name = "current", value = "当前页"), @ApiImplicitParam(name = "limit", value = "条数")})
     public Result pageTeacherConditoin(@PathVariable Integer current, @PathVariable Integer limit
-            , TeacherQuery teacherQuery) {
+            , @RequestBody TeacherQuery teacherQuery) {
 
         QueryWrapper<EduTeacher> wrapper = new QueryWrapper<>();
         String name = teacherQuery.getName();
         Integer level = teacherQuery.getLevel();
         String begin = teacherQuery.getBegin();
         String end = teacherQuery.getEnd();
+        System.out.println(teacherQuery);
         if (StringUtils.hasLength(name)) {
             wrapper.like("name", name);
             System.out.println("进来了");
