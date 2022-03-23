@@ -42,7 +42,11 @@ public class EduTeacherController {
     @ApiOperation("逻辑删除教师")
     public Result removeTeacher(@ApiParam(name = "id", value = "教师id") @PathVariable String id) {
         boolean b = teacherService.removeById(id);
-        return Result.ok();
+        if (b) {
+            return Result.ok();
+        }else {
+            return Result.error();
+        }
     }
 
     @ApiOperation("分页查询教师")

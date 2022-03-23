@@ -9,6 +9,20 @@ export default {
       method: 'post',
       data: teacherQuery
     })
+  },
+  //按Id删除教师
+  deleteTeacherId(id) {
+    return request({
+      url: `/eduservice/teacher/${id}`,
+      method: 'delete',
+    })
+  },
+  // 添加教师
+  addTeacher(teacher) {
+    return request({
+      url: `/eduservice/teacher/addTeacher`,
+      method: 'post',
+      data: teacher
+    })
   }
-
 }
