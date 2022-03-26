@@ -62,19 +62,39 @@
 
 
 import teacher from '@/api/edu/teacher'
+import { myLog } from '../../../utils/myUtile'
 
 export default {
   name: 'Save',
   data() {
     return {
+      teacherId: null,
       teacher: {},
-      saveBtnDisabled: false
+      saveBtnDisabled: false,
+      isSave: true,
     }
   },
   created() {
+    let id = this.$route.params.id
+    if (id != null) {
+      this.isSave = false
+      this.teacherId = id
+      this.getTeacher()
+    }else {
+      this.teacher = {}
+    }
+
   },
   methods: {
     saveOrUpdate() {
+      if (this.isSave) {
+        this.saveTeacher()
+      }else {
+        this.editTeacher()
+      }
+    },
+    // 添加教师
+    saveTeacher() {
       teacher.addTeacher(this.teacher).then(res => {
         if (res.success) {
           this.$message({
@@ -87,6 +107,28 @@ export default {
             message: '添加失败!'
           });
         }
+      })
+    },
+    // 修改教师
+    editTeacher() {
+      teacher.updateTeacher(this.teacher).then(res => {
+        if (res.success) {
+          this.$message({
+            type: 'success',
+            message: '修改成功!'
+          });
+        }else {
+          this.$message({
+            type: 'error',
+            message: '修改失败!'
+          });
+        }
+      })
+    },
+    // 按id查询教师
+    getTeacher() {
+      teacher.getTeacherId(this.teacherId).then(res => {
+        this.teacher = res.data.params
       })
     }
   }

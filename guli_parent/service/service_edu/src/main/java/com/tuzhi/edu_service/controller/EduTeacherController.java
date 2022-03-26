@@ -83,6 +83,8 @@ public class EduTeacherController {
         if (StringUtils.hasLength(end)) {
             wrapper.ge("gmt_modified", end);
         }
+//        排序
+        wrapper.orderByDesc("gmt_create");
         Page<EduTeacher> page = new Page<>(current, limit);
         teacherService.page(page, wrapper);
         return Result.ok().data("total", page.getTotal()).data("rows", page.getRecords());
@@ -108,5 +110,12 @@ public class EduTeacherController {
         }else {
             return Result.error();
         }
+    }
+
+    @ApiOperation("按id查询教师")
+    @GetMapping("/{id}")
+    public Result selectTeacherId(@ApiParam(name = "id", value = "教师id") @PathVariable String id) {
+        EduTeacher teacher = teacherService.getById(id);
+        return Result.ok().data("params", teacher);
     }
 }

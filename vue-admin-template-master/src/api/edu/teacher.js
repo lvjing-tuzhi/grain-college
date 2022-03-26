@@ -24,5 +24,20 @@ export default {
       method: 'post',
       data: teacher
     })
+  },
+  // 按id查询教师
+  getTeacherId(id) {
+    return request({
+      url: `/eduservice/teacher/${id}`,
+      method: 'get',
+    })
+  },
+  // 修改教师
+  updateTeacher(teacher) {
+    return request({
+      url: `/eduservice/teacher/updateTeacher`,
+      method: 'post',
+      data: teacher
+    })
   }
 }

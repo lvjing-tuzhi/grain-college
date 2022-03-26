@@ -101,7 +101,7 @@ export default {
     return {
       list: null, //教师列表
       current: 1, //当前页
-      limit: 4, //每页多少
+      limit: 8, //每页多少
       total: 0, //总计多少条记录
       teacherQuery: {} //查询条件
     }
