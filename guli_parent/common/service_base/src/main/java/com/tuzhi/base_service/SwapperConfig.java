@@ -37,7 +37,7 @@ public class SwapperConfig {
 //                    none() 不扫描
 //                    withClassAnnotation 扫描类上的注解，参数是一个注解的放射对象，annocation.class
 //                    withMethodAnnotation 扫描方法上的注解
-//                .apis(RequestHandlerSelectors.basePackage("com.tuzhi.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.tuzhi"))
 //                .paths(PathSelectors.any())//过滤路径
                 .paths(Predicates.not(PathSelectors.regex("/error.*")))
                 .paths(Predicates.not(PathSelectors.regex("/admin/.*")))

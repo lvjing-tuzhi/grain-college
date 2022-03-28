@@ -65,9 +65,7 @@ public class Generator {
     }
     @Test
     public void test() {
-        while (true) {
-            System.out.println("a");
-            break;
-        }
+        int a = 1;
+        int A = 2;
     }
 }
