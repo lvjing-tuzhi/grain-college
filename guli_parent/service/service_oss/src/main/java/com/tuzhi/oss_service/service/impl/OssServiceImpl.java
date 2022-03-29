@@ -41,9 +41,9 @@ public class OssServiceImpl implements OssService {
             Date date = new Date();
             SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy/MM/dd");
             String dataString = simpleDateFormat.format(date);
-            String fileName = "https://" + bucketName + "." + endpoint + "/" + dataString + "/" + uuid + file.getOriginalFilename();
-
-            ossClient.putObject(bucketName, fileName, inputStream);
+            String objectName = dataString + "/" + uuid + file.getOriginalFilename();
+            String fileName = "https://" + bucketName + "." + endpoint + "/" + objectName;
+            ossClient.putObject(bucketName, objectName, inputStream);
             return fileName;
         } catch (Exception e) {
             e.printStackTrace();

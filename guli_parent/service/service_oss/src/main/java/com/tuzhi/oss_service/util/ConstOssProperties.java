@@ -20,7 +20,7 @@ public class ConstOssProperties implements InitializingBean {
     private String accessKeyId;
     @Value("${aliyun.oss.file.accessKeySecret}")
     private String accessKeySecret;
-    @Value("${aliyun.oss.file.bucketname")
+    @Value("${aliyun.oss.file.bucketname}")
     private String bucketname;
     
 //    常量配置属性
