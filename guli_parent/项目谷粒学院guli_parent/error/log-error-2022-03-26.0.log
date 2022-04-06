@@ -1,0 +1,128 @@
+2022-03-26 20:53:24.426 [http-nio-8001-exec-8] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:53:32.591 [http-nio-8001-exec-6] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:27.481 [http-nio-8001-exec-9] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:30.562 [http-nio-8001-exec-10] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:31.092 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:31.285 [http-nio-8001-exec-4] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:31.444 [http-nio-8001-exec-3] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:31.629 [http-nio-8001-exec-7] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:31.789 [http-nio-8001-exec-8] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:31.948 [http-nio-8001-exec-6] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:32.107 [http-nio-8001-exec-2] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:32.284 [http-nio-8001-exec-5] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:32.451 [http-nio-8001-exec-9] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:54:32.605 [http-nio-8001-exec-10] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 20:55:59.293 [http-nio-8001-exec-3] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+2022-03-26 21:19:44.623 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+### The error may exist in com/tuzhi/edu_service/mapper/EduTeacherMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduTeacherMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_teacher  ( id, name, intro, career, level,  sort, is_deleted, gmt_create, gmt_modified )  VALUES  ( ?, ?, ?, ?, ?,  ?, ?, ?, ? )
+### Cause: java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'
+; Duplicate entry '1506861115584286721' for key 'PRIMARY'; nested exception is java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1506861115584286721' for key 'PRIMARY'

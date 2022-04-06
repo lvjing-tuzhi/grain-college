@@ -4,7 +4,7 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.tuzhi.edu_service.pojo.EduTeacher;
 import com.tuzhi.edu_service.pojo.vo.TeacherQuery;
-import com.tuzhi.edu_service.service.IEduTeacherService;
+import com.tuzhi.edu_service.service.EduTeacherService;
 import com.tuzhi.utilcommon.result.Result;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ import java.util.List;
 public class EduTeacherController {
 
     @Autowired
-    IEduTeacherService teacherService;
+    EduTeacherService teacherService;
 
     @GetMapping("/findAll")
     @ApiOperation("查询所有教师列表")

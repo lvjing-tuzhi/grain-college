@@ -1,8 +1,0 @@
-2022-03-21 22:21:31.080 [http-nio-8001-exec-3] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
-2022-03-21 22:22:23.375 [http-nio-8001-exec-4] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
-2022-03-21 22:23:25.485 [http-nio-8001-exec-6] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
-2022-03-21 22:26:51.132 [http-nio-8001-exec-8] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
-2022-03-21 22:29:48.529 [http-nio-8001-exec-6] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Request method 'GET' not supported
-2022-03-21 22:34:23.092 [http-nio-8001-exec-2] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Required request parameter 'teacherQuery' for method parameter type TeacherQuery is not present
-2022-03-21 22:34:58.477 [http-nio-8001-exec-4] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported
-2022-03-21 22:35:27.529 [http-nio-8001-exec-3] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

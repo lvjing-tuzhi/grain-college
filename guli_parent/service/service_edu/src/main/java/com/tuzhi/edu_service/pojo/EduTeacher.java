@@ -23,6 +23,7 @@ import lombok.experimental.Accessors;
  */
 @Data
 @Accessors(chain = true)
+//实体类和数据库表进行映射
 @TableName("edu_teacher")
 @ApiModel(value = "EduTeacher对象", description = "讲师")
 public class EduTeacher implements Serializable {

@@ -2,7 +2,7 @@ package com.tuzhi.edu_service.service.impl;
 
 import com.tuzhi.edu_service.pojo.EduTeacher;
 import com.tuzhi.edu_service.mapper.EduTeacherMapper;
-import com.tuzhi.edu_service.service.IEduTeacherService;
+import com.tuzhi.edu_service.service.EduTeacherService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2022-03-06
  */
 @Service
-public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeacher> implements IEduTeacherService {
+public class EduTeacherServiceImpl extends ServiceImpl<EduTeacherMapper, EduTeacher> implements EduTeacherService {
 
 }

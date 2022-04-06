@@ -38,7 +38,7 @@ public class Generator {
                             .entity("pojo"); //设置实体类的名字
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("edu_teacher") // 设置需要生成的表名
+                    builder.addInclude("edu_subject") // 设置需要生成的表名
                             .addTablePrefix("t_", "c_"); // 设置过滤表前缀
                 })
 //                实体策略
@@ -46,7 +46,7 @@ public class Generator {
                     builder.entityBuilder()
                     .enableLombok()
                     .enableChainModel()
-                    .idType(IdType.AUTO);
+                    .idType(IdType.ASSIGN_ID);
                 })
 //                controller配置策略
                 .strategyConfig(builder -> {
@@ -60,12 +60,12 @@ public class Generator {
 //                    创建Mapper接口的时候都会添加一个@Mapper注解
                     .enableMapperAnnotation();
                 })
+//                service配置策略
+                .strategyConfig(builder -> {
+                    builder.serviceBuilder()
+                    .formatServiceFileName("%Service");
+                })
 //                .templateEngine(new FreemarkerTemplateEngine()) // 使用Freemarker引擎模板，默认的是Velocity引擎模板
                 .execute();
-    }
-    @Test
-    public void test() {
-        int a = 1;
-        int A = 2;
     }
 }

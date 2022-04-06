@@ -21,34 +21,34 @@
         <el-input v-model="teacher.intro" :rows="10" type="textarea"/>
       </el-form-item>
 
-<!--      &lt;!&ndash; 讲师头像：TODO &ndash;&gt;-->
-<!--      &lt;!&ndash; 讲师头像 &ndash;&gt;-->
-<!--      <el-form-item label="讲师头像">-->
+      <!-- 讲师头像：TODO -->
+      <!-- 讲师头像 -->
+      <el-form-item label="讲师头像">
 
-<!--        &lt;!&ndash; 头衔缩略图 &ndash;&gt;-->
-<!--        <pan-thumb :image="teacher.avatar"/>-->
-<!--        &lt;!&ndash; 文件上传按钮 &ndash;&gt;-->
-<!--        <el-button type="primary" icon="el-icon-upload" @click="imagecropperShow=true">更换头像-->
-<!--        </el-button>-->
+        <!-- 头衔缩略图 -->
+        <pan-thumb :image="teacher.avatar"/>
+        <!-- 文件上传按钮 -->
+        <el-button type="primary" icon="el-icon-upload" @click="imagecropperShow=true">更换头像
+        </el-button>
 
-<!--        &lt;!&ndash;-->
-<!--    v-show：是否显示上传组件-->
-<!--    :key：类似于id，如果一个页面多个图片上传控件，可以做区分-->
-<!--    :url：后台上传的url地址-->
-<!--    @close：关闭上传组件-->
-<!--    @crop-upload-success：上传成功后的回调 -->
-<!--      <input type="file" name="file"/>-->
-<!--    &ndash;&gt;-->
-<!--        <image-cropper-->
-<!--          v-show="imagecropperShow"-->
-<!--          :width="300"-->
-<!--          :height="300"-->
-<!--          :key="imagecropperKey"-->
-<!--          :url="BASE_API+'/eduoss/fileoss'"-->
-<!--          field="file"-->
-<!--          @close="close"-->
-<!--          @crop-upload-success="cropSuccess"/>-->
-<!--      </el-form-item>-->
+        <!--
+    v-show：是否显示上传组件
+    :key：类似于id，如果一个页面多个图片上传控件，可以做区分
+    :url：后台上传的url地址
+    @close：关闭上传组件
+    @crop-upload-success：上传成功后的回调
+      <input type="file" name="file"/>
+    -->
+        <image-cropper
+          v-show="imagecropperShow"
+          :width="300"
+          :height="300"
+          :key="imagecropperKey"
+          :url="BASE_API+'/eduoss/fileoss'"
+          field="file"
+          @close="close"
+          @crop-upload-success="cropSuccess"/>
+      </el-form-item>
 
       <el-form-item>
         <el-button :disabled="saveBtnDisabled" type="primary" @click="saveOrUpdate">保存</el-button>
@@ -60,18 +60,23 @@
 
 <script>
 
-
-import teacher from '@/api/edu/teacher'
 import { myLog } from '../../../utils/myUtile'
+import teacher from '@/api/edu/teacher'
+import ImageCropper from '@/components/ImageCropper'
+import PanThumb from '@/components/PanThumb'
 
 export default {
   name: 'Save',
+  components: {ImageCropper, PanThumb},
   data() {
     return {
-      teacherId: null,
-      teacher: {},
-      saveBtnDisabled: false,
-      isSave: true,
+      teacherId: null, //教师ID
+      teacher: {}, //教师信息
+      saveBtnDisabled: false, //提交按钮
+      isSave: true, //判断是不是增加
+      imagecropperShow: false, //是否打开上传头像框
+      imagecropperKey: 1, //组件key
+      BASE_API: "http://127.0.0.1:8002", //上传头像的api
     }
   },
   created() {
@@ -130,7 +135,16 @@ export default {
       teacher.getTeacherId(this.teacherId).then(res => {
         this.teacher = res.data.params
       })
-    }
+    },
+    // 上传头像框关闭执行的方法
+    close() {
+      this.imagecropperShow = false;
+    },
+    //头像上传成功执行的方法
+    cropSuccess(res) {
+      this.teacher.avatar = res.url
+      myLog("upload", res);
+    },
   }
 }
 </script>

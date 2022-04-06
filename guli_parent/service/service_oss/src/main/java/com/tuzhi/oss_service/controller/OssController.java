@@ -19,7 +19,7 @@ import org.springframework.web.multipart.MultipartFile;
  **/
 
 @RestController
-@RequestMapping("eduoss/fileoss")
+@RequestMapping("/eduoss/fileoss")
 @Api(tags = "文件上传")
 @CrossOrigin
 public class OssController {
