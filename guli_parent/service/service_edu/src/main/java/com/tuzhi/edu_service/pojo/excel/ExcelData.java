@@ -1,6 +1,7 @@
 package com.tuzhi.edu_service.pojo.excel;
 
 import com.alibaba.excel.annotation.ExcelProperty;
+import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -13,7 +14,8 @@ import lombok.NoArgsConstructor;
  **/
 
 @Data
-public class SubjectData {
+@ApiModel
+public class ExcelData {
     @ExcelProperty(index = 0)
     private String oneSubjectName;
 

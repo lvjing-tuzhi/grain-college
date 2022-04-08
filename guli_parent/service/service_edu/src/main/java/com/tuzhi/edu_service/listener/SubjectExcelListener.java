@@ -5,7 +5,7 @@ import com.alibaba.excel.event.AnalysisEventListener;
 import com.alibaba.excel.metadata.CellData;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.tuzhi.edu_service.pojo.EduSubject;
-import com.tuzhi.edu_service.pojo.excel.SubjectData;
+import com.tuzhi.edu_service.pojo.excel.ExcelData;
 import com.tuzhi.edu_service.service.EduSubjectService;
 import org.springframework.util.ObjectUtils;
 
@@ -18,7 +18,7 @@ import java.util.Map;
  * @create: 2022-04-06 20:09
  **/
 
-public class SubjectExcelListener extends AnalysisEventListener<SubjectData> {
+public class SubjectExcelListener extends AnalysisEventListener<ExcelData> {
 
     private EduSubjectService eduSubjectService;
 
@@ -27,26 +27,25 @@ public class SubjectExcelListener extends AnalysisEventListener<SubjectData> {
     }
 
     @Override
-    public void invoke(SubjectData subjectData, AnalysisContext analysisContext) {
-        System.out.println(subjectData.getOneSubjectName());
-        if (ObjectUtils.isEmpty(subjectData)){
+    public void invoke(ExcelData excelData, AnalysisContext analysisContext) {
+        if (ObjectUtils.isEmpty(excelData)){
             System.out.println("表格为空");
             throw new RuntimeException("分类表格不能为空");
         }
-        EduSubject oneSuject = existOneSujectByName(subjectData.getOneSubjectName());
+        EduSubject oneSuject = existOneSujectByName(excelData.getOneSubjectName());
 //        没有一级分类则进行添加
         if (ObjectUtils.isEmpty(oneSuject)) {
             oneSuject = new EduSubject();
-            oneSuject.setTitle(subjectData.getOneSubjectName());
+            oneSuject.setTitle(excelData.getOneSubjectName());
             oneSuject.setParentId("0");
             eduSubjectService.save(oneSuject);
         }
         String pid = oneSuject.getId();
-        EduSubject twoSuject = existTwoSubjectByName(subjectData.getTwoSubjectName(), pid);
+        EduSubject twoSuject = existTwoSubjectByName(excelData.getTwoSubjectName(), pid);
         if (ObjectUtils.isEmpty(twoSuject)) {
             twoSuject = new EduSubject();
             twoSuject.setParentId(pid);
-            twoSuject.setTitle(subjectData.getTwoSubjectName());
+            twoSuject.setTitle(excelData.getTwoSubjectName());
             eduSubjectService.save(twoSuject);
         }
 
