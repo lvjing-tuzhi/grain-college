@@ -25,18 +25,6 @@ export const constantRouterMap = [
   { path: '/login', component: () => import('@/views/login/index'), hidden: true },
   { path: '/404', component: () => import('@/views/404'), hidden: true },
 
-  {
-    path: '/',
-    component: Layout,
-    redirect: '/dashboard',
-    name: 'Dashboard',
-    hidden: true,
-    children: [{
-      path: 'dashboard',
-      component: () => import('@/views/dashboard/index')
-    }]
-  },
-
   // 教师管理
   {
     path: '/teacher',
@@ -87,6 +75,62 @@ export const constantRouterMap = [
         meta: { title: '增加分类', icon: 'tree' }
       },
     ]
+  },
+
+  // 分类管理
+  {
+    path: '/course',
+    component: Layout,
+    redirect: '/course',
+    name: '课程管理',
+    meta: { title: '课程管理', icon: 'example' },
+    children: [
+      {
+        path: 'list',
+        name: '课程列表',
+        component: () => import('@/views/edu/course/List'),
+        meta: { title: '课程类表', icon: 'table' }
+      },
+      {
+        path: 'info',
+        name: '添加课程',
+        component: () => import('@/views/edu/course/Info'),
+        meta: { title: '添加课程', icon: 'table' }
+      },
+      {
+        path: 'info/:courseId',
+        name: '编辑课程',
+        component: () => import('@/views/edu/course/Info'),
+        meta: { title: '编辑课程', icon: 'table' },
+        hidden: true
+      },
+      {
+        path: 'chapter/:courseId',
+        name: '编辑课程大纲',
+        component: () => import('@/views/edu/course/Chapter'),
+        meta: { title: '编辑课程大纲', icon: 'table' },
+        hidden: true
+      },
+      {
+        path: 'publish',
+        name: '发布课程',
+        component: () => import('@/views/edu/course/Publish'),
+        meta: { title: '添加课程', icon: 'table' },
+        hidden: true
+      },
+    ]
+  },
+
+  {
+    path: '/',
+    component: Layout,
+    redirect: '/dashboard',
+    name: 'Dashboard',
+    hidden: true,
+    children: [{
+      path: 'dashboard',
+      component: () => import('@/views/dashboard/index')
+    }]
   },
 
   {

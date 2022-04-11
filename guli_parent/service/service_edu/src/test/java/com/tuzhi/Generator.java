@@ -38,7 +38,7 @@ public class Generator {
                             .entity("pojo"); //设置实体类的名字
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("edu_subject") // 设置需要生成的表名
+                    builder.addInclude("edu_chapter", "edu_course", "edu_course_description", "edu_video") // 设置需要生成的表名
                             .addTablePrefix("t_", "c_"); // 设置过滤表前缀
                 })
 //                实体策略
@@ -63,9 +63,11 @@ public class Generator {
 //                service配置策略
                 .strategyConfig(builder -> {
                     builder.serviceBuilder()
-                    .formatServiceFileName("%Service");
+                    .formatServiceFileName("%sService")
+                    .formatServiceImplFileName("%sServiceImp");
                 })
 //                .templateEngine(new FreemarkerTemplateEngine()) // 使用Freemarker引擎模板，默认的是Velocity引擎模板
                 .execute();
     }
+
 }

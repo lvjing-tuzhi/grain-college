@@ -1,0 +1,113 @@
+2022-04-09 13:22:04.982 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 13240 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-09 13:22:04.997 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-09 13:22:06.430 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-09 13:22:06.430 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-09 13:22:06.430 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-09 13:22:06.430 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-09 13:22:06.446 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-09 13:22:06.461 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-09 13:22:06.461 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 13:22:06.461 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 13:22:06.524 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 13:22:06.524 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1480 ms
+2022-04-09 13:22:07.677 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-09 13:22:07.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-09 13:22:07.914 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-09 13:22:07.922 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-09 13:22:07.934 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-09 13:22:07.965 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-09 13:22:08.075 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 3.788 seconds (JVM running for 5.04)
+2022-04-09 13:22:42.950 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 13:22:42.950 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-09 13:22:42.966 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2022-04-09 14:27:09.101 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 3624 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-09 14:27:09.104 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-09 14:27:10.244 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-09 14:27:10.245 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-09 14:27:10.245 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-09 14:27:10.246 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-09 14:27:10.249 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-09 14:27:10.255 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-09 14:27:10.256 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:27:10.256 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:27:10.323 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:27:10.323 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1171 ms
+2022-04-09 14:27:11.364 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-09 14:27:11.548 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-09 14:27:11.562 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-09 14:27:11.563 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-09 14:27:11.575 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-09 14:27:11.600 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-09 14:27:11.717 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 3.198 seconds (JVM running for 4.119)
+2022-04-09 14:27:36.997 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 14:27:36.997 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-09 14:27:36.998 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-09 14:27:58.427 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-09 14:27:58.515 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-09 14:33:28.946 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12256 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-09 14:33:28.951 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-09 14:33:30.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-09 14:33:30.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-09 14:33:30.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-09 14:33:30.110 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-09 14:33:30.113 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-09 14:33:30.119 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-09 14:33:30.120 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:33:30.120 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:33:30.193 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:33:30.193 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1199 ms
+2022-04-09 14:33:31.235 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-09 14:33:31.418 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-09 14:33:31.432 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-09 14:33:31.433 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-09 14:33:31.446 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-09 14:33:31.472 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-09 14:33:31.589 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 3.184 seconds (JVM running for 4.252)
+2022-04-09 14:38:26.206 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12100 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-09 14:38:26.209 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-09 14:38:27.307 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-09 14:38:27.308 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-09 14:38:27.308 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-09 14:38:27.309 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-09 14:38:27.311 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-09 14:38:27.318 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-09 14:38:27.318 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 14:38:27.319 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 14:38:27.383 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 14:38:27.383 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1129 ms
+2022-04-09 14:38:28.418 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-09 14:38:28.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-09 14:38:28.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-09 14:38:28.617 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-09 14:38:28.629 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-09 14:38:28.655 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-09 14:38:28.773 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 3.097 seconds (JVM running for 4.153)
+2022-04-09 14:38:33.651 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 14:38:33.651 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-09 14:38:33.652 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-09 14:38:33.712 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-09 14:38:33.804 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-09 15:30:52.340 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 18072 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-09 15:30:52.344 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-09 15:30:53.432 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-09 15:30:53.433 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-09 15:30:53.433 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-09 15:30:53.433 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-09 15:30:53.436 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-09 15:30:53.443 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-09 15:30:53.443 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-09 15:30:53.443 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-09 15:30:53.521 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-09 15:30:53.522 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1124 ms
+2022-04-09 15:30:54.669 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-09 15:30:54.856 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-09 15:30:54.870 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-09 15:30:54.871 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-09 15:30:54.883 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-09 15:30:54.913 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-09 15:30:55.040 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 3.305 seconds (JVM running for 4.092)
+2022-04-09 15:31:20.754 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-09 15:31:20.755 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-09 15:31:20.756 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-09 15:33:05.599 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-09 15:33:05.700 [http-nio-8001-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

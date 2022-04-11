@@ -82,10 +82,12 @@ export default {
   created() {
     let id = this.$route.params.id
     if (id != null) {
+      //执行修改功能
       this.isSave = false
       this.teacherId = id
       this.getTeacher()
     }else {
+      // 执行添加功能
       this.teacher = {}
     }
 

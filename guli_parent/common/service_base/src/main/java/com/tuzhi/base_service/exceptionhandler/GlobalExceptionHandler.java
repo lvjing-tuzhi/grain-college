@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.io.IOException;
+
 /**
  * @program: guli_parent
  * @description:异常处理类
@@ -27,5 +29,22 @@ public class GlobalExceptionHandler {
         e.printStackTrace();
         log.error(e.getMessage());
         return Result.error().code(ResultCode.ERROR.getCode()).message("请求失败");
+    }
+    /**
+     * 自定义异常处理
+     *
+     * @param e
+     * @return ResultVo
+     */
+    @ExceptionHandler(GuiException.class)
+    public Result error(GuiException e) {
+        log.error("异常信息：{}", e);
+        return Result.error().code(e.getCode()).message(e.getMsg());
+    }
+
+    @ExceptionHandler(IOException.class)
+    public Result error(IOException e) {
+        log.error("异常信息", e);
+        throw GuiException.from(ResultCode.UPLOAD_FILE_ERROR);
     }
 }
