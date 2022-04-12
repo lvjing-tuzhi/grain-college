@@ -15,5 +15,6 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface EduCourseMapper extends BaseMapper<EduCourse> {
+    //获得课程确认信息
     CoursePublishVo getCoursePublicVo(String courseId);
 }

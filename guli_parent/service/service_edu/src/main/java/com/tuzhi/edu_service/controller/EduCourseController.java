@@ -1,5 +1,6 @@
 package com.tuzhi.edu_service.controller;
 
+
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.tuzhi.edu_service.pojo.EduCourse;
@@ -17,6 +18,12 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
+import com.tuzhi.edu_service.pojo.vo.CourseInfoForm;
+import com.tuzhi.edu_service.service.EduCourseService;
+import com.tuzhi.utilcommon.result.Result;
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -38,6 +45,7 @@ public class EduCourseController {
 
     @Autowired
     EduCourseService eduCourseService;
+
 
     @ApiOperation("删除课程")
     @DeleteMapping("/{courseId}")
@@ -100,6 +108,4 @@ public class EduCourseController {
         CoursePublishVo coursePublishVo = eduCourseService.getPublic(courseId);
         return Result.ok().data("list", coursePublishVo);
     }
-
-
 }

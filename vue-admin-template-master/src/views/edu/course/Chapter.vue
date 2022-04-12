@@ -275,9 +275,6 @@ export default {
           })
           this.getChapter()
         })
-        .catch(res => {
-          myLog("res", res)
-        })
     }
   }
 }

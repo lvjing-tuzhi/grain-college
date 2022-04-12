@@ -31,7 +31,7 @@
         width="70"
         align="center">
         <template slot-scope="scope">
-          {{ (current - 1) * limit + scope.$index + 1 }}
+          {{ (page - 1) * limit + scope.$index + 1 }}
         </template>
       </el-table-column>
 

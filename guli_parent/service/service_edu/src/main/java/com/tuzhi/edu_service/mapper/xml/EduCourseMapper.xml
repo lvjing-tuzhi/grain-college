@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.tuzhi.edu_service.mapper.EduCourseMapper">
+
     <select id="getCoursePublicVo" resultType="com.tuzhi.edu_service.pojo.vo.CoursePublishVo">
         select c.id, c.title, c.cover, c.lesson_num lessonNum, one.title subjectLevelOne, two.title subjectLevelTwo, teacher.name teacherName, c.price from edu_course c
             left join edu_subject one on c.subject_parent_id=one.id
