@@ -62,7 +62,7 @@
     </el-dialog>
 
     <!-- 添加和修改课时小节表单 -->
-    <el-dialog :visible.sync="dialogVideoFormVisible" title="添加课时">
+    <el-dialog :visible.sync="dialogVideoFormVisible" title="添加小节">
       <el-form :model="video" label-width="120px">
         <el-form-item label="课时标题">
           <el-input v-model="video.title"/>
@@ -77,7 +77,25 @@
           </el-radio-group>
         </el-form-item>
         <el-form-item label="上传视频">
-          <!-- TODO -->
+          <el-upload
+            :on-success="handleVodUploadSuccess"
+            :on-remove="handleVodRemove"
+            :before-remove="beforeVodRemove"
+            :on-exceed="handleUploadExceed"
+            :file-list="fileList"
+            :action="BASE_API+'/eduvod/uploadVideo'"
+            :limit="1"
+            class="upload-demo">
+            <el-button size="small" type="primary">上传视频</el-button>
+            <el-tooltip placement="right-end">
+              <div slot="content">
+                支持3GP、ASF、AVI、DAT、DV、FLV、F4V、<br>
+                GIF、M2T、M4V、MJ2、MJPEG、MKV、MOV、MP4、<br>
+                MPE、MPG、MPEG、MTS、OGG、QT、RM、RMVB、<br>
+                SWF、TS、VOB、WMV、WEBM 等视频格式上传</div>
+              <i class="el-icon-question"/>
+            </el-tooltip>
+          </el-upload>
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
@@ -104,6 +122,7 @@ export default {
       saveVideoBtnDisabled: false,
       dialogChapterFormVisible: false, //添加和修改章节弹窗
       dialogVideoFormVisible: false, //添加小节弹窗
+      BASE_API: process.env.BASE_API, // 服务器地址
       chapterVideoList: [], //课程大纲
       chapter: { //封装章节数据
         title: '',
@@ -111,6 +130,7 @@ export default {
         courseId: null, //课程Id
       },
       video: {}, //小节
+      fileList: [] //视频文件列表
     }
   },
   created() {
@@ -121,6 +141,44 @@ export default {
     this.getChapter()
   },
   methods: {
+    //上传视频数量超过设置数量执行的函数
+    handleUploadExceed() {
+      this.$message.warning('想要重新上传视频，请先删除已上传的视频')
+    },
+    //视频删除之前执行的函数
+    beforeVodRemove() {
+      return this.$confirm('此操作将删除章节, 是否继续?', '提示', {
+        confirmButtonText: '确定',
+        cancelButtonText: '取消',
+        type: 'warning'
+      })
+    },
+    //beforeVodRemove函数返回true的时候就会执行这个视频移除的函数
+    handleVodRemove() {
+      video.deleteAliyunVideo(this.video.videoSourceId)
+        .then(res => {
+          this.$message({
+            type: 'success',
+            message: '删除视频成功!'
+          })
+
+          //把文件列表清空
+          this.fileList = []
+          //把video视频id和视频名称值清空
+          //上传视频id赋值
+          this.video.videoSourceId = ''
+          //上传视频名称赋值
+          this.video.videoOriginalName = ''
+        })
+    },
+    //视频上传成功执行的函数
+    handleVodUploadSuccess(response, file, fileList) {
+      //上传视频id赋值
+      this.video.videoSourceId = response.data.videoId
+      //上传视频名称赋值
+      this.video.videoOriginalName = file.name
+      myLog("===", fileList)
+    },
     //返回上一步课程基本信息界面
     previous() {
       this.$router.push({path: "/course/info/"+this.courseId})
@@ -187,6 +245,7 @@ export default {
     },
     //添加小节
     saveVideo() {
+      this.fileList = []
       video.addVideo(this.video)
         .then(res => {
           //关闭弹框
@@ -218,6 +277,9 @@ export default {
       video.getVideoById(id)
         .then(res => {
           this.video = res.data.video
+          myLog("video", res.data.video.videoOriginalName)
+          this.fileList = [{"name": res.data.video.videoOriginalName}]
+
         })
     },
 

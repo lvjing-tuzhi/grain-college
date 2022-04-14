@@ -86,6 +86,7 @@ export default {
       limit: 6, //每页几条数据
       total: 0, //一共几条数据
       current: 1, //页数
+      page: 1,
       courseQuery: {}, //查询条件
       list: [], //课程列表
     }
@@ -130,7 +131,7 @@ export default {
         })
     },
     //根据条件分页查询课程
-    getList(page=1) {
+    getList(page = 1) {
       this.current = page
       course.getTeacherListPage(this.current, this.limit, this.courseQuery)
         .then(res => {

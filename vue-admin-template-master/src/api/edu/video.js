@@ -32,4 +32,11 @@ export default {
       method: 'get',
     })
   },
+  //删除视频
+  deleteAliyunVideo(videoId) {
+    return request({
+      url: `/eduvod/${videoId}`,
+      method: 'delete'
+    })
+  }
 }
