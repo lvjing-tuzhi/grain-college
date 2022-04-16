@@ -13,6 +13,7 @@ import com.tuzhi.utilcommon.result.ResultCode;
 import com.tuzhi.vod_service.service.VodService;
 import com.tuzhi.vod_service.util.ConstVodProperties;
 import com.tuzhi.vod_service.util.InitVodClient;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -58,8 +59,6 @@ public class VodServiceImol implements VodService {
     @Override
     public void delete(String videoId){
         try {
-            System.out.println("=======================================================");
-            System.out.println(videoId);
             DefaultAcsClient client = InitVodClient.initVodClient();
             DeleteVideoRequest request = new DeleteVideoRequest();
             //支持传入多个视频ID，多个用逗号分隔
@@ -107,6 +106,22 @@ public class VodServiceImol implements VodService {
         } catch (Exception e) {
             e.printStackTrace();
             throw GuiException.from(ResultCode.ERROR);
+        }
+    }
+
+    //批量删除视频
+    @Override
+    public void deleteBatch(List<String> list) {
+        try {
+            DefaultAcsClient client = InitVodClient.initVodClient();
+            DeleteVideoRequest request = new DeleteVideoRequest();
+            String videoIds = StringUtils.join(list.toArray(), ",");
+            //支持传入多个视频ID，多个用逗号分隔
+            request.setVideoIds(videoIds);
+            client.getAcsResponse(request);
+        } catch (ClientException e) {
+            e.printStackTrace();
+            throw GuiException.from(ResultCode.DELETE_ERROR);
         }
     }
 

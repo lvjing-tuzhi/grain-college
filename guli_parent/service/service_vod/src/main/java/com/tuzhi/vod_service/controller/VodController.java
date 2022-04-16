@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @program: guli_parent
@@ -36,9 +37,14 @@ public class VodController {
     @ApiOperation("删除视频")
     @DeleteMapping("/{videoId}")
     public Result deleteVideo(@PathVariable String videoId) {
-        System.out.println("===============controller=============");
-        System.out.println(videoId);
         vodService.delete(videoId);
+        return Result.ok();
+    }
+
+    @ApiOperation("批量删除视频")
+    @DeleteMapping("/deleteBatch")
+    public Result deleteVideoBatch(@RequestParam List<String> list) {
+        vodService.deleteBatch(list);
         return Result.ok();
     }
 

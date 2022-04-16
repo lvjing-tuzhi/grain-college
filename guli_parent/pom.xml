@@ -31,10 +31,28 @@
         <swagger-ui-version>2.9.2</swagger-ui-version>
         <swagger2-version>2.9.2</swagger2-version>
         <poi.version>3.17</poi.version>
+        <cloud-alibaba.version>0.2.2.RELEASE</cloud-alibaba.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!--Spring Cloud-->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2021.0.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
 
             <!--xls-->
             <dependency>

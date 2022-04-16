@@ -17,6 +17,8 @@
     </properties>
 
     <dependencies>
+
+
 <!--        这个是自己安装到maven仓库的javasdk-->
         <dependency>
             <groupId>com.aliyun</groupId>

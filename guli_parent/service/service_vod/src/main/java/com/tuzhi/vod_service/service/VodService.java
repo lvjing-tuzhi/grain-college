@@ -4,6 +4,7 @@ import com.aliyuncs.exceptions.ClientException;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
+import java.util.List;
 
 /**
  * @program: guli_parent
@@ -24,4 +25,7 @@ public interface VodService {
 
     //获取视频凭证
     String getVideoPlayAuth(String vodeiId);
+
+    //批量删除视频
+    void deleteBatch(List<String> list);
 }

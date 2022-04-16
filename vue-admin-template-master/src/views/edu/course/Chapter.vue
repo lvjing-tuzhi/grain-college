@@ -114,6 +114,8 @@ import video from '../../../api/edu/video'
 import { myLog } from '../../../utils/myUtile'
 
 export default {
+  //TODO 1、编辑小节的时候小节视频显示问题
+  //TODO 2、编辑小节的时候，如果把视频删除了，然后又没有点击保存按钮就关闭了，则会出现数据库小节还保存着视频id，而且阿里云端的视频则已经删除了
   name: 'chapter',
   data() {
     return {

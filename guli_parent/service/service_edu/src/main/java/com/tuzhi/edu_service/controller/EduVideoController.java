@@ -39,10 +39,11 @@ public class EduVideoController {
         return Result.ok();
     }
 
-    @ApiOperation("删除小节")
+    //TODO 删除小节的时候把阿里云里面的视频也删除
+    @ApiOperation("根据小节id删除小节")
     @DeleteMapping("/{id}")
     public Result deleteVideo(@PathVariable String id) {
-        videoService.removeById(id);
+        videoService.removeVideoById(id);
         return Result.ok();
     }
 
