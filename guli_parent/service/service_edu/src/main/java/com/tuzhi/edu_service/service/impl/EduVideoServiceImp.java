@@ -2,11 +2,14 @@ package com.tuzhi.edu_service.service.impl;
 
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.tuzhi.base_service.exceptionhandler.GuiException;
 import com.tuzhi.edu_service.client.VodClient;
 import com.tuzhi.edu_service.pojo.EduVideo;
 import com.tuzhi.edu_service.mapper.EduVideoMapper;
 import com.tuzhi.edu_service.service.EduVideoService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.tuzhi.utilcommon.result.Result;
+import com.tuzhi.utilcommon.result.ResultCode;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
@@ -41,7 +44,15 @@ public class EduVideoServiceImp extends ServiceImpl<EduVideoMapper, EduVideo> im
                 .filter(o -> !ObjectUtils.isEmpty(o.getVideoSourceId()))
                 .map(o -> o.getVideoSourceId())
                 .collect(Collectors.toList());
-        vodClient.deleteVideoBatch(videoSourceList);
+        if (!ObjectUtils.isEmpty(videoSourceList)) {
+
+            Result result = vodClient.deleteVideoBatch(videoSourceList);
+            if (result.getCode().equals("20001")) {
+                System.out.println("================================================");
+                System.out.println(result);
+                throw GuiException.from(ResultCode.HYSTRIXTIMEOUT);
+            }
+        }
 
         //删除小节
         this.remove(videoQueryWrapper);
@@ -55,9 +66,17 @@ public class EduVideoServiceImp extends ServiceImpl<EduVideoMapper, EduVideo> im
         wrapper.eq("id", id);
         wrapper.select("video_source_id");
         EduVideo eduVideo = this.getOne(wrapper);
-        String videoSourceId = eduVideo.getVideoSourceId();
+        String videoSourceId = null;
+        if (!ObjectUtils.isEmpty(eduVideo)) {
+            videoSourceId = eduVideo.getVideoSourceId();
+        }
         if (!ObjectUtils.isEmpty(videoSourceId)) {
-            vodClient.deleteVideo(eduVideo.getVideoSourceId());
+            Result result = vodClient.deleteVideo(eduVideo.getVideoSourceId());
+            System.out.println("================================================");
+            System.out.println(result);
+            if (result.getCode().equals("20001")) {
+                throw GuiException.from(ResultCode.HYSTRIXTIMEOUT);
+            }
         }
 
         //删除小节

@@ -37,7 +37,9 @@ public enum ResultCode implements Code{
 
     WXPAY_FAIL(20019, "微信支付失败"),
 
-    PARAMS_ERROR(20020, "参数校验失败");
+    PARAMS_ERROR(20020, "参数校验失败"),
+
+    HYSTRIXTIMEOUT(20021, "执行熔断");
 
 
 

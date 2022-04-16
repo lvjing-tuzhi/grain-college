@@ -206,6 +206,7 @@ export default {
       this.video = {}
       this.video.chapterId = chapterId
       this.video.courseId = this.courseId
+      this.fileList = []
     },
     //打开编辑小节弹窗
     openEditVideo(id) {

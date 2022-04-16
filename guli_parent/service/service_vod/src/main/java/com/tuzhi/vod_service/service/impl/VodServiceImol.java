@@ -13,7 +13,7 @@ import com.tuzhi.utilcommon.result.ResultCode;
 import com.tuzhi.vod_service.service.VodService;
 import com.tuzhi.vod_service.util.ConstVodProperties;
 import com.tuzhi.vod_service.util.InitVodClient;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 

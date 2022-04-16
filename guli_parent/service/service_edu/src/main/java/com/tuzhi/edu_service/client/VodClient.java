@@ -17,7 +17,7 @@ import java.util.List;
  **/
 
 //name=服务名称
-@FeignClient(name = "service-vod")
+@FeignClient(name = "service-vod", fallback = VodFileDegradeFeignClient.class)
 @Component
 public interface VodClient {
 

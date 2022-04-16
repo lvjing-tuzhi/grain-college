@@ -1076,3 +1076,553 @@ Caused by: java.lang.IllegalStateException: No Feign Client for loadBalancing de
 2022-04-16 16:46:44.367 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.AbstractMethodError: org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.choose(Ljava/lang/String;Lorg/springframework/cloud/client/loadbalancer/Request;)Lorg/springframework/cloud/client/ServiceInstance;
 2022-04-16 16:49:06.174 [http-nio-8001-exec-10] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.AbstractMethodError: org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.choose(Ljava/lang/String;Lorg/springframework/cloud/client/loadbalancer/Request;)Lorg/springframework/cloud/client/ServiceInstance;
 2022-04-16 16:54:01.132 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.AbstractMethodError: org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.choose(Ljava/lang/String;Lorg/springframework/cloud/client/loadbalancer/Request;)Lorg/springframework/cloud/client/ServiceInstance;
+2022-04-16 19:27:49.417 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 19:30:46.531 [http-nio-8001-exec-10] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list=3be180bcef4242a0b02e96c744900ab2] [VodClient#deleteVideoBatch(List)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 19:34:06.672 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 19:42:29.806 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 19:46:55.234 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 19:47:56.171 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 19:52:59.547 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 19:55:00.712 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.tuzhi.edu_service.EduApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610)
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.tuzhi.edu_service.EduApplication.main(EduApplication.java:25)
+Caused by: java.io.FileNotFoundException: class path resource [org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1090)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1071)
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:549)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:522)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600)
+	... 19 common frames omitted
+2022-04-16 19:55:32.194 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [com.tuzhi.edu_service.EduApplication]; nested exception is java.io.FileNotFoundException: class path resource [org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:610)
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:111)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:812)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:809)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:780)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:193)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.tuzhi.edu_service.EduApplication.main(EduApplication.java:24)
+Caused by: java.io.FileNotFoundException: class path resource [org/springframework/boot/autoconfigure/web/ServerPropertiesAutoConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:49)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1090)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1071)
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:549)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:522)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:311)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:600)
+	... 19 common frames omitted
+2022-04-16 20:03:01.422 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 20:26:08.800 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterController': Unsatisfied dependency expressed through field 'chapterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterServiceImp': Unsatisfied dependency expressed through field 'videoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoServiceImp': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.tuzhi.edu_service.EduApplication.main(EduApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterServiceImp': Unsatisfied dependency expressed through field 'videoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoServiceImp': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoServiceImp': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:382)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:427)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402)
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 56 common frames omitted
+2022-04-16 20:29:28.718 [http-nio-8001-exec-8] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Handler dispatch failed; nested exception is java.lang.AbstractMethodError: org.springframework.cloud.netflix.ribbon.RibbonLoadBalancerClient.choose(Ljava/lang/String;Lorg/springframework/cloud/client/loadbalancer/Request;)Lorg/springframework/cloud/client/ServiceInstance;
+2022-04-16 20:30:44.574 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [404] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list] [VodClient#deleteVideoBatch(List)]: [{"timestamp":"2022-04-16T12:30:44.520+00:00","status":404,"error":"Not Found","path":"/eduvod/deleteBatch"}]
+2022-04-16 20:46:14.131 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterController': Unsatisfied dependency expressed through field 'chapterService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterServiceImp': Unsatisfied dependency expressed through field 'videoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoServiceImp': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at com.tuzhi.edu_service.EduApplication.main(EduApplication.java:24)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduChapterServiceImp': Unsatisfied dependency expressed through field 'videoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoServiceImp': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eduVideoServiceImp': Unsatisfied dependency expressed through field 'vodClient'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:659)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:639)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 34 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.tuzhi.edu_service.client.VodClient': Unexpected exception during bean creation; nested exception is java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1389)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1309)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:656)
+	... 48 common frames omitted
+Caused by: java.lang.IllegalStateException: No Feign Client for loadBalancing defined. Did you forget to include spring-cloud-starter-loadbalancer?
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:382)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getTarget(FeignClientFactoryBean.java:427)
+	at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:402)
+	at org.springframework.cloud.openfeign.FeignClientsRegistrar.lambda$registerFeignClient$0(FeignClientsRegistrar.java:235)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.obtainFromSupplier(AbstractAutowireCapableBeanFactory.java:1249)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1191)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	... 56 common frames omitted
+2022-04-16 20:47:31.252 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list] [VodClient#deleteVideoBatch(List)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 20:54:15.131 [http-nio-8001-exec-2] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list] [VodClient#deleteVideoBatch(List)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 20:56:00.683 [http-nio-8001-exec-4] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - 
+### Error updating database.  Cause: java.sql.SQLException: Field 'title' doesn't have a default value
+### The error may exist in com/tuzhi/edu_service/mapper/EduVideoMapper.java (best guess)
+### The error may involve com.tuzhi.edu_service.mapper.EduVideoMapper.insert-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO edu_video  ( id, course_id, chapter_id,  video_source_id, video_original_name,        gmt_create, gmt_modified )  VALUES  ( ?, ?, ?,  ?, ?,        ?, ? )
+### Cause: java.sql.SQLException: Field 'title' doesn't have a default value
+; Field 'title' doesn't have a default value; nested exception is java.sql.SQLException: Field 'title' doesn't have a default value
+2022-04-16 20:56:20.161 [http-nio-8001-exec-10] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list=ad73494ec6f348cda3c9926ea43bb9a2] [VodClient#deleteVideoBatch(List)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 20:57:19.899 [http-nio-8001-exec-5] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/ad73494ec6f348cda3c9926ea43bb9a2] [VodClient#deleteVideo(String)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 21:54:14.965 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list] [VodClient#deleteVideoBatch(List)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 21:55:46.939 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 21:56:17.563 [main] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call a method that does not exist. The attempt was made from the following location:
+
+    springfox.documentation.spring.web.scanners.ApiListingScanner.scan(ApiListingScanner.java:117)
+
+The following method did not exist:
+
+    com.google.common.collect.FluentIterable.append(Ljava/lang/Iterable;)Lcom/google/common/collect/FluentIterable;
+
+The calling method's class, springfox.documentation.spring.web.scanners.ApiListingScanner, was loaded from the following location:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar!/springfox/documentation/spring/web/scanners/ApiListingScanner.class
+
+The called method's class, com.google.common.collect.FluentIterable, is available from the following locations:
+
+    jar:file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar!/com/google/common/collect/FluentIterable.class
+
+The called method's class hierarchy was loaded from the following locations:
+
+    com.google.common.collect.FluentIterable: file:/D:/environment/apache-maven-3.8.3/maven-repo/com/google/guava/guava/15.0/guava-15.0.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains compatible versions of the classes springfox.documentation.spring.web.scanners.ApiListingScanner and com.google.common.collect.FluentIterable
+
+2022-04-16 22:00:51.822 [http-nio-8001-exec-1] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/deleteBatch?list] [VodClient#deleteVideoBatch(List)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 22:06:06.645 [http-nio-8001-exec-2] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - [503] during [DELETE] to [http://service-vod/eduvod/4d21e09c6855479e9bcefb5eecd2fe50] [VodClient#deleteVideo(String)]: [Load balancer does not contain an instance for the service service-vod]
+2022-04-16 22:12:55.743 [http-nio-8001-exec-10] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - null
