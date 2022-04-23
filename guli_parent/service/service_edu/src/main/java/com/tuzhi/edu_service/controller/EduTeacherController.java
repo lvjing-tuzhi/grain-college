@@ -8,6 +8,8 @@ import com.tuzhi.edu_service.service.EduTeacherService;
 import com.tuzhi.utilcommon.result.Result;
 import io.swagger.annotations.*;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -30,10 +32,14 @@ public class EduTeacherController {
 
     @Autowired
     EduTeacherService teacherService;
+    @Autowired
+    RedisTemplate redisTemplate;
 
     @GetMapping("/findAll")
     @ApiOperation("查询所有教师列表")
+    @Cacheable(key = "'teacherList'", value = "select")
     public Result findAll() {
+
         List<EduTeacher> list = teacherService.list();
         return Result.ok().data("datas", list);
     }

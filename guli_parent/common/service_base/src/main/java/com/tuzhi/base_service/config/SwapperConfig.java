@@ -1,4 +1,4 @@
-package com.tuzhi.base_service;
+package com.tuzhi.base_service.config;
 
 import com.google.common.base.Predicates;
 import org.springframework.context.annotation.Bean;

@@ -1,0 +1,1309 @@
+2022-04-16 14:34:27.259 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 7036 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 14:34:27.266 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 14:34:28.787 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=eea8004e-147f-3b5a-8999-793b6c7d9b69
+2022-04-16 14:34:29.140 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 14:34:29.141 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 14:34:29.142 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 14:34:29.142 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 14:34:29.157 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 14:34:29.166 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 14:34:29.167 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 14:34:29.167 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 14:34:29.270 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 14:34:29.270 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1919 ms
+2022-04-16 14:34:32.020 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 14:34:32.149 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 14:34:32.168 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 14:34:34.236 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 14:34:36.014 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 14:34:36.169 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 14:34:36.209 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 14:34:41.438 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 14:34:41.439 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 14:34:41.482 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 14:34:41.567 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 14:34:41.965 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 14:34:42.037 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 17.003 seconds (JVM running for 19.153)
+2022-04-16 14:39:25.431 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 14:39:25.432 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 14:39:25.434 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 14:39:28.690 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 14:39:28.818 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 15:58:56.370 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 1436 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 15:58:56.374 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 15:58:57.587 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2ea01fd2-0855-34dd-98bb-78963e4f38bb
+2022-04-16 15:58:57.881 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 15:58:57.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 15:58:57.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 15:58:57.882 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 15:58:57.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 15:58:57.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 15:58:57.894 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 15:58:57.894 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 15:58:57.987 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 15:58:57.987 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1565 ms
+2022-04-16 15:58:59.394 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 15:58:59.399 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 15:58:59.408 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 16:02:02.261 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 11676 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:02:02.266 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:02:03.875 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2ea01fd2-0855-34dd-98bb-78963e4f38bb
+2022-04-16 16:02:04.200 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:02:04.201 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:02:04.201 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:02:04.201 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:02:04.204 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:02:04.211 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:02:04.212 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:02:04.212 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:02:04.353 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:02:04.353 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2026 ms
+2022-04-16 16:02:05.732 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:02:05.735 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 16:02:05.743 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 16:04:18.658 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 11488 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:04:18.661 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:04:19.569 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=2ea01fd2-0855-34dd-98bb-78963e4f38bb
+2022-04-16 16:04:19.845 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:04:19.846 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:04:19.846 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:04:19.846 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:04:19.849 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:04:19.855 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:04:19.856 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:04:19.856 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:04:19.946 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:04:19.946 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1244 ms
+2022-04-16 16:04:21.253 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:04:21.256 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 16:04:21.266 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 16:07:05.912 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 4440 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:07:05.915 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:07:07.120 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b5b1afa-88ac-35c7-ae4a-10f1317847ab
+2022-04-16 16:07:07.416 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:07:07.416 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:07:07.417 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:07:07.417 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:07:07.420 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:07:07.427 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:07:07.428 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:07:07.428 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:07:07.515 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:07:07.515 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1556 ms
+2022-04-16 16:07:08.839 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:07:09.162 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 16:07:09.178 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:07:09.181 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:07:10.693 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:07:12.045 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:07:12.124 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:07:12.143 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 16:07:12.188 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 16:07:13.519 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:07:13.519 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 16:07:13.533 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 16:07:13.563 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 16:07:13.701 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 16:07:13.727 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 9.894 seconds (JVM running for 11.086)
+2022-04-16 16:08:19.243 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 16:08:19.243 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 16:08:19.244 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 16:08:19.353 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 16:08:19.473 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 16:34:25.697 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 9792 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:34:25.701 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:34:26.862 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b5b1afa-88ac-35c7-ae4a-10f1317847ab
+2022-04-16 16:34:27.177 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:34:27.178 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:34:27.178 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:34:27.178 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:34:27.181 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:34:27.188 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:34:27.189 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:34:27.189 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:34:27.280 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:34:27.280 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1531 ms
+2022-04-16 16:34:28.671 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:34:29.044 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 16:34:29.059 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:34:29.063 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:34:30.601 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:34:31.961 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:34:32.047 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:34:32.071 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 16:34:32.122 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 16:34:33.449 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:34:33.449 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 16:34:33.477 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 16:34:33.505 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 16:34:33.640 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 16:34:33.667 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.214 seconds (JVM running for 12.353)
+2022-04-16 16:35:32.007 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 16:35:32.008 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 16:35:32.010 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 16:35:32.131 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 16:35:32.245 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 16:40:16.622 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 11868 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:40:16.625 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:40:17.726 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b5b1afa-88ac-35c7-ae4a-10f1317847ab
+2022-04-16 16:40:18.090 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:40:18.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:40:18.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:40:18.092 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:40:18.095 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:40:18.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:40:18.107 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:40:18.108 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:40:18.268 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:40:18.268 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1589 ms
+2022-04-16 16:40:20.600 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:40:21.185 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 16:40:21.217 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:40:21.224 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:40:22.951 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:40:24.418 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:40:24.640 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:40:24.674 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 16:40:24.789 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 16:40:26.517 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:40:26.517 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 16:40:26.541 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 16:40:26.600 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 16:40:26.886 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 16:40:26.927 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 12.56 seconds (JVM running for 14.006)
+2022-04-16 16:44:03.437 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 16:44:03.438 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 16:44:03.439 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 16:44:03.533 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 16:44:03.631 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 16:46:29.117 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 10528 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:46:29.121 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:46:30.189 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b5b1afa-88ac-35c7-ae4a-10f1317847ab
+2022-04-16 16:46:30.527 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:46:30.528 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:46:30.529 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:46:30.529 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:46:30.532 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:46:30.539 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:46:30.540 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:46:30.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:46:30.652 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:46:30.652 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1486 ms
+2022-04-16 16:46:32.003 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:46:32.345 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 16:46:32.363 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:46:32.367 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:46:33.905 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:46:35.261 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:46:35.376 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:46:35.397 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 16:46:35.468 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 16:46:36.857 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:46:36.857 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 16:46:36.871 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 16:46:36.899 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 16:46:37.034 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 16:46:37.061 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.114 seconds (JVM running for 11.325)
+2022-04-16 16:46:44.101 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 16:46:44.102 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 16:46:44.103 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 16:46:44.191 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 16:46:44.287 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 16:47:48.841 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 4932 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:47:48.845 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:47:50.019 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b5b1afa-88ac-35c7-ae4a-10f1317847ab
+2022-04-16 16:47:50.350 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:47:50.351 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:47:50.351 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:47:50.351 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:47:50.354 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:47:50.361 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:47:50.362 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:47:50.362 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:47:50.463 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:47:50.463 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1568 ms
+2022-04-16 16:47:51.896 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:47:52.293 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 16:47:52.312 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:47:52.315 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:47:53.862 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:47:55.220 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:47:55.311 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:47:55.337 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 16:47:55.401 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 16:47:56.737 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:47:56.737 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 16:47:56.751 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 16:47:56.780 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 16:47:56.917 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 16:47:56.948 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.42 seconds (JVM running for 12.496)
+2022-04-16 16:48:51.498 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 16:48:51.498 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 16:48:51.500 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 16:48:58.639 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 16:48:58.764 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 16:53:31.603 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 5468 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 16:53:31.608 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 16:53:32.802 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=0b5b1afa-88ac-35c7-ae4a-10f1317847ab
+2022-04-16 16:53:33.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 16:53:33.143 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 16:53:33.143 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 16:53:33.143 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 16:53:33.146 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 16:53:33.155 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:53:33.156 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 16:53:33.157 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 16:53:33.279 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 16:53:33.279 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1604 ms
+2022-04-16 16:53:34.876 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 16:53:35.392 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 16:53:35.412 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:53:35.416 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 16:53:37.132 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:53:38.528 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:53:38.616 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 16:53:38.647 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 16:53:38.698 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 16:53:40.141 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 16:53:40.141 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 16:53:40.158 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 16:53:40.193 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 16:53:40.341 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 16:53:40.376 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 11.131 seconds (JVM running for 12.629)
+2022-04-16 16:54:00.838 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 16:54:00.838 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 16:54:00.839 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 16:54:00.932 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 16:54:01.032 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 17:00:04.052 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 6816 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 17:00:04.055 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 17:00:05.266 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3348aeb9-1a77-3f00-8c3a-9437c0cad232
+2022-04-16 17:00:05.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 17:00:05.579 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 17:00:05.579 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 17:00:05.579 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 17:00:05.582 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 17:00:05.589 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 17:00:05.590 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 17:00:05.591 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 17:00:05.685 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 17:00:05.685 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1580 ms
+2022-04-16 17:00:07.177 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 17:00:07.603 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 17:00:07.621 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 17:00:07.625 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 17:00:09.203 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 17:00:10.571 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 17:00:10.648 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 17:00:10.668 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 17:00:10.714 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 17:00:12.045 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 17:00:12.045 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 17:00:12.059 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 17:00:12.088 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 17:00:12.223 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 17:00:12.249 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.328 seconds (JVM running for 11.92)
+2022-04-16 17:00:19.240 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 17:00:19.241 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 17:00:19.243 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 17:00:19.352 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 17:00:19.458 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 19:27:43.645 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 15660 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:27:43.649 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:27:45.296 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7ab935dc-1c02-3c67-bf33-4f7b5e93737e
+2022-04-16 19:27:45.651 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:27:45.651 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:27:45.652 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:27:45.652 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:27:45.655 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:27:45.663 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:27:45.663 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:27:45.664 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:27:45.762 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:27:45.762 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2047 ms
+2022-04-16 19:27:47.331 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:27:47.687 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:27:47.705 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:27:47.709 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:27:48.705 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:27:48.725 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:27:48.777 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:27:49.101 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:27:49.117 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:27:49.148 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:27:49.159 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 19:27:49.161 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 19:27:49.381 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:27:49.381 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 19:27:49.385 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:27:49.388 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:27:49.396 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:30:22.424 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12836 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:30:22.429 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:30:23.944 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7ab935dc-1c02-3c67-bf33-4f7b5e93737e
+2022-04-16 19:30:24.459 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:30:24.460 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:30:24.461 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:30:24.461 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:30:24.465 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:30:24.477 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:30:24.477 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:30:24.478 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:30:24.590 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:30:24.590 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2100 ms
+2022-04-16 19:30:26.016 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:30:26.353 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:30:26.371 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:30:26.374 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:30:27.340 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:30:27.372 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:30:27.420 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:30:27.797 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:30:27.813 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:30:27.844 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:30:27.983 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 19:30:28.013 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 7.03 seconds (JVM running for 8.503)
+2022-04-16 19:30:39.588 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 19:30:39.588 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 19:30:39.590 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 19:30:39.724 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 19:30:39.847 [http-nio-8001-exec-4] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 19:34:01.672 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 7960 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:34:01.676 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:34:02.791 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7ab935dc-1c02-3c67-bf33-4f7b5e93737e
+2022-04-16 19:34:03.103 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:34:03.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:34:03.104 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:34:03.105 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:34:03.107 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:34:03.114 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:34:03.115 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:34:03.115 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:34:03.213 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:34:03.214 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1483 ms
+2022-04-16 19:34:04.600 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:34:04.937 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:34:04.953 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:34:04.957 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:34:05.940 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:34:05.962 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:34:06.012 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:34:06.354 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:34:06.365 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:34:06.394 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:34:06.402 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 19:34:06.405 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 19:34:06.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:34:06.638 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 19:34:06.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:34:06.645 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:34:06.653 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:42:24.897 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12772 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:42:24.902 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:42:25.984 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7ab935dc-1c02-3c67-bf33-4f7b5e93737e
+2022-04-16 19:42:26.287 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:42:26.288 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:42:26.288 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:42:26.288 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:42:26.290 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:42:26.298 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:42:26.299 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:42:26.299 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:42:26.401 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:42:26.401 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2022-04-16 19:42:27.766 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:42:28.093 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:42:28.109 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:42:28.113 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:42:29.087 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:42:29.119 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:42:29.171 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:42:29.501 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:42:29.512 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:42:29.539 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:42:29.548 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 19:42:29.550 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 19:42:29.774 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:42:29.774 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 19:42:29.777 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:42:29.780 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:42:29.787 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:46:50.206 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12708 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:46:50.210 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:46:51.326 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f4318f80-06a3-3c6b-9c7a-0e61af9d536e
+2022-04-16 19:46:51.638 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:46:51.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:46:51.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:46:51.639 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:46:51.642 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:46:51.649 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:46:51.650 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:46:51.650 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:46:51.745 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:46:51.745 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1484 ms
+2022-04-16 19:46:53.144 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:46:53.471 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:46:53.488 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:46:53.491 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:46:54.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:46:54.508 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:46:54.584 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:46:54.916 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:46:54.927 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:46:54.959 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:46:54.968 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 19:46:54.970 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 19:46:55.194 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:46:55.195 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 19:46:55.199 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:46:55.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:46:55.211 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:47:51.133 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 6208 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:47:51.136 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:47:52.297 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 19:47:52.601 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:47:52.602 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:47:52.602 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:47:52.602 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:47:52.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:47:52.612 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:47:52.613 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:47:52.613 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:47:52.710 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:47:52.710 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1522 ms
+2022-04-16 19:47:54.126 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:47:54.458 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:47:54.474 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:47:54.477 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:47:55.435 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:47:55.470 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:47:55.531 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:47:55.868 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:47:55.881 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:47:55.910 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:47:55.920 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 19:47:55.922 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 19:47:56.139 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:47:56.139 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 19:47:56.142 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:47:56.145 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:47:56.152 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:52:53.804 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 15420 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:52:53.809 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:52:54.982 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=61b2a26d-d37f-388f-ae3a-f9422555d3b4
+2022-04-16 19:52:55.421 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 19:52:55.422 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 19:52:55.422 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 19:52:55.422 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 19:52:55.425 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 19:52:55.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:52:55.434 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 19:52:55.435 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 19:52:55.569 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 19:52:55.570 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1697 ms
+2022-04-16 19:52:57.276 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 19:52:57.715 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 19:52:57.741 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:52:57.744 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:52:58.810 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:52:58.829 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 19:52:58.882 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 19:52:59.214 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 19:52:59.226 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 19:52:59.254 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 19:52:59.263 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 19:52:59.265 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 19:52:59.283 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 19:52:59.505 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:52:59.505 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 19:52:59.509 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:52:59.512 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 19:52:59.521 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:54:59.858 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12152 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:54:59.861 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:55:00.685 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 19:55:31.239 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 540 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 19:55:31.244 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 19:55:32.166 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 20:02:56.176 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 6996 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:02:56.182 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:02:57.316 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=8eed3bc6-c2c9-3871-be7c-9feb13b8a5db
+2022-04-16 20:02:57.716 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:02:57.717 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:02:57.718 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:02:57.718 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:02:57.721 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:02:57.729 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:02:57.729 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:02:57.730 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:02:57.824 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:02:57.824 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1583 ms
+2022-04-16 20:02:59.303 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:02:59.670 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 20:02:59.694 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:02:59.698 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:03:00.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:03:00.721 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 20:03:00.768 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 20:03:01.086 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 20:03:01.098 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 20:03:01.128 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 20:03:01.138 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 20:03:01.141 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 20:03:01.155 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:03:01.386 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:03:01.386 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 20:03:01.391 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:03:01.395 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:03:01.402 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 20:26:05.325 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 16028 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:26:05.330 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:26:06.655 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=d614189b-6d59-3635-b0fc-e6fc1847792d
+2022-04-16 20:26:07.012 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:26:07.013 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:26:07.013 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:26:07.014 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:26:07.016 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:26:07.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:26:07.026 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:26:07.026 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:26:07.136 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:26:07.136 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1742 ms
+2022-04-16 20:26:08.750 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:26:08.756 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 20:26:08.770 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 20:27:46.162 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 10488 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:27:46.167 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:27:47.512 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3d86c201-4305-3df7-bd32-57c7c6135c40
+2022-04-16 20:27:47.879 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:27:47.880 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:27:47.881 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:27:47.881 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:27:47.884 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:27:47.893 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:27:47.894 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:27:47.894 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:27:48.001 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:27:48.002 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1764 ms
+2022-04-16 20:27:49.598 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:27:49.996 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 20:27:50.021 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:27:50.025 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:27:51.178 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:27:51.203 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 20:27:51.274 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 20:27:51.642 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 20:27:51.666 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 20:27:51.703 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 20:27:51.870 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 20:27:51.902 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 7.147 seconds (JVM running for 8.753)
+2022-04-16 20:28:10.711 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 14176 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:28:10.716 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:28:12.048 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3d86c201-4305-3df7-bd32-57c7c6135c40
+2022-04-16 20:28:12.419 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:28:12.420 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:28:12.420 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:28:12.420 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:28:12.423 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:28:12.434 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:28:12.435 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:28:12.436 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:28:12.575 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:28:12.576 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1791 ms
+2022-04-16 20:28:14.205 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:28:14.621 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 20:28:14.638 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:28:14.641 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:28:15.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:28:15.926 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 20:28:15.983 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 20:28:16.382 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 20:28:16.399 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 20:28:16.430 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 20:28:16.602 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 20:28:16.642 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 7.406 seconds (JVM running for 8.81)
+2022-04-16 20:28:59.577 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 20:28:59.578 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 20:28:59.579 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 20:29:24.371 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 20:29:24.520 [http-nio-8001-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 20:30:23.436 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 14040 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:30:23.441 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:30:24.793 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7ab935dc-1c02-3c67-bf33-4f7b5e93737e
+2022-04-16 20:30:25.165 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:30:25.166 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:30:25.166 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:30:25.166 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:30:25.169 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:30:25.177 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:30:25.178 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:30:25.178 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:30:25.287 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:30:25.288 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1781 ms
+2022-04-16 20:30:26.908 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:30:27.314 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 20:30:27.335 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:30:27.338 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 20:30:28.453 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:30:28.493 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 20:30:28.553 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 20:30:28.931 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 20:30:28.949 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 20:30:28.982 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 20:30:29.158 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 20:30:29.208 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 7.171 seconds (JVM running for 8.551)
+2022-04-16 20:30:43.250 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 20:30:43.250 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 20:30:43.252 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 20:30:43.304 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 20:30:43.429 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 20:46:10.949 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 1724 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:46:10.955 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:46:12.153 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=9b15a9ac-e88a-3984-843a-1e1e6a5819f1
+2022-04-16 20:46:12.453 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:46:12.454 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:46:12.455 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:46:12.455 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:46:12.458 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:46:12.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:46:12.468 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:46:12.469 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:46:12.596 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:46:12.596 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1575 ms
+2022-04-16 20:46:14.092 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:46:14.097 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 20:46:14.106 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 20:47:07.115 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 7272 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:47:07.120 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:47:08.211 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=57b428e9-fbc9-3fed-9ee9-0a2951d746bc
+2022-04-16 20:47:08.504 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:47:08.505 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:47:08.505 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:47:08.505 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:47:08.508 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:47:08.515 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:47:08.516 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:47:08.516 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:47:08.602 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:47:08.603 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1433 ms
+2022-04-16 20:47:09.992 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:47:10.326 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 20:47:10.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:47:10.967 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 20:47:11.285 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 20:47:11.295 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 20:47:11.321 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 20:47:11.450 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 20:47:11.476 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 5.561 seconds (JVM running for 6.933)
+2022-04-16 20:47:30.905 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 20:47:30.905 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 20:47:30.907 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 20:47:30.945 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 20:47:31.044 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 20:55:24.372 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 14480 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 20:55:24.376 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 20:55:25.377 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=57b428e9-fbc9-3fed-9ee9-0a2951d746bc
+2022-04-16 20:55:25.676 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 20:55:25.677 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 20:55:25.677 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 20:55:25.677 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 20:55:25.680 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 20:55:25.687 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:55:25.688 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 20:55:25.688 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 20:55:25.771 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 20:55:25.772 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1338 ms
+2022-04-16 20:55:27.093 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 20:55:27.436 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 20:55:28.070 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 20:55:28.087 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 20:55:28.412 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 20:55:28.421 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 20:55:28.449 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 20:55:28.577 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 20:55:28.603 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 5.487 seconds (JVM running for 6.767)
+2022-04-16 20:55:36.479 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 20:55:36.479 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 20:55:36.481 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 20:55:36.586 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 20:55:36.701 [http-nio-8001-exec-3] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 21:02:49.460 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 16372 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 21:02:49.464 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 21:02:50.498 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=3b44ac2e-db5e-377f-ae06-2b8f55fa54ea
+2022-04-16 21:02:50.794 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 21:02:50.795 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 21:02:50.796 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 21:02:50.796 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 21:02:50.798 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 21:02:50.806 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:02:50.806 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 21:02:50.807 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 21:02:50.891 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 21:02:50.892 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1360 ms
+2022-04-16 21:02:52.249 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 21:02:52.579 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 21:02:53.223 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:02:53.240 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 21:02:53.559 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 21:02:53.569 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 21:02:53.597 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 21:02:53.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 21:02:53.757 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 5.542 seconds (JVM running for 6.846)
+2022-04-16 21:06:18.671 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 15196 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 21:06:18.676 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 21:06:19.840 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7ab935dc-1c02-3c67-bf33-4f7b5e93737e
+2022-04-16 21:06:20.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 21:06:20.134 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 21:06:20.134 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 21:06:20.134 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 21:06:20.137 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 21:06:20.144 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:06:20.144 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 21:06:20.145 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 21:06:20.252 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 21:06:20.253 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1516 ms
+2022-04-16 21:06:21.690 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 21:06:22.012 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 21:06:22.029 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:06:22.033 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:06:22.970 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:06:23.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 21:06:23.055 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 21:06:23.372 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 21:06:23.388 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 21:06:23.420 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 21:06:23.558 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 21:06:23.582 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 6.14 seconds (JVM running for 7.412)
+2022-04-16 21:06:57.421 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 21:06:57.421 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 21:06:57.423 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 21:06:57.513 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 21:06:57.627 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 21:53:29.268 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 11976 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 21:53:29.271 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 21:53:30.350 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=f4318f80-06a3-3c6b-9c7a-0e61af9d536e
+2022-04-16 21:53:30.656 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 21:53:30.657 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 21:53:30.657 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 21:53:30.657 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 21:53:30.661 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 21:53:30.672 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:53:30.672 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 21:53:30.673 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 21:53:30.769 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 21:53:30.770 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1453 ms
+2022-04-16 21:53:32.166 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 21:53:32.574 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 21:53:32.601 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:53:32.606 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:53:34.247 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:53:35.607 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:53:35.705 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:53:35.729 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 21:53:35.785 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 21:53:37.147 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:53:37.147 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 21:53:37.161 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 21:53:37.194 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 21:53:37.334 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 21:53:37.361 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.209 seconds (JVM running for 11.335)
+2022-04-16 21:54:14.596 [http-nio-8001-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 21:54:14.597 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 21:54:14.598 [http-nio-8001-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 21:54:14.649 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 21:54:14.756 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 21:55:37.576 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 9904 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 21:55:37.581 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 21:55:38.821 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 21:55:39.126 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 21:55:39.126 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 21:55:39.127 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 21:55:39.127 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 21:55:39.129 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 21:55:39.138 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:55:39.138 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 21:55:39.139 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 21:55:39.237 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 21:55:39.237 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1598 ms
+2022-04-16 21:55:40.653 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 21:55:41.047 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 21:55:41.063 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:55:41.067 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:55:43.616 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:55:45.150 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:55:45.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:55:45.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 21:55:45.311 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 21:55:46.649 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:55:46.649 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 21:55:46.660 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 21:55:46.687 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 21:55:46.695 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 21:55:46.698 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 21:55:46.908 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:55:46.908 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 21:55:46.911 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:55:46.914 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:55:46.922 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 21:56:09.323 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 15676 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 21:56:09.326 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 21:56:10.352 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=61b2a26d-d37f-388f-ae3a-f9422555d3b4
+2022-04-16 21:56:10.770 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 21:56:10.771 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 21:56:10.771 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 21:56:10.771 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 21:56:10.774 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 21:56:10.782 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:56:10.782 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 21:56:10.782 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 21:56:10.883 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 21:56:10.884 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1509 ms
+2022-04-16 21:56:12.388 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 21:56:12.775 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 21:56:12.797 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:56:12.801 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:56:14.363 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:56:15.739 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:56:15.840 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:56:15.860 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 21:56:15.903 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 21:56:17.240 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 21:56:17.240 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 21:56:17.251 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 21:56:17.277 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 21:56:17.286 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registering from Nacos Server now...
+2022-04-16 21:56:17.288 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - De-registration finished.
+2022-04-16 21:56:17.299 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 21:56:17.521 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:56:17.522 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2022-04-16 21:56:17.525 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:56:17.529 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8001"]
+2022-04-16 21:56:17.540 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-04-16 22:00:31.140 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 14792 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:00:31.143 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:00:32.246 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=61b2a26d-d37f-388f-ae3a-f9422555d3b4
+2022-04-16 22:00:32.657 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:00:32.657 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:00:32.658 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:00:32.658 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:00:32.660 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:00:32.668 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:00:32.669 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:00:32.669 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:00:32.776 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:00:32.776 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1571 ms
+2022-04-16 22:00:34.246 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:00:34.610 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:00:34.632 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:00:34.636 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:00:36.194 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:00:37.552 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:00:37.638 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:00:37.657 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:00:37.703 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:00:39.040 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:00:39.040 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:00:39.050 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:00:39.079 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:00:39.213 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:00:39.239 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.247 seconds (JVM running for 11.53)
+2022-04-16 22:00:51.486 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:00:51.487 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:00:51.488 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:00:51.526 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:00:51.630 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:02:01.422 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 4648 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:02:01.427 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:02:02.511 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7855d88d-1a06-30b9-8837-69f12885181c
+2022-04-16 22:02:02.917 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:02:02.918 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:02:02.918 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:02:02.918 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:02:02.921 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:02:02.929 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:02:02.930 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:02:02.930 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:02:03.027 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:02:03.028 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1546 ms
+2022-04-16 22:02:04.391 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:02:04.763 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:02:04.784 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:02:04.788 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:02:06.341 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:02:07.700 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:02:07.809 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:02:07.829 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:02:07.876 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:02:09.190 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:02:09.190 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:02:09.200 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:02:09.228 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:02:09.361 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:02:09.387 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.045 seconds (JVM running for 11.265)
+2022-04-16 22:02:26.642 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:02:26.642 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:02:26.644 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 22:02:26.687 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:02:26.789 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:05:50.748 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 16972 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:05:50.753 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:05:51.762 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=61b2a26d-d37f-388f-ae3a-f9422555d3b4
+2022-04-16 22:05:52.175 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:05:52.176 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:05:52.177 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:05:52.177 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:05:52.179 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:05:52.187 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:05:52.187 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:05:52.188 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:05:52.291 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:05:52.292 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1482 ms
+2022-04-16 22:05:53.701 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:05:54.076 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:05:54.099 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:05:54.102 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:05:55.657 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:05:57.018 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:05:57.121 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:05:57.140 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:05:57.186 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:05:58.511 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:05:58.511 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:05:58.521 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:05:58.549 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:05:58.682 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:05:58.708 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.118 seconds (JVM running for 11.257)
+2022-04-16 22:06:06.283 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:06:06.283 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:06:06.285 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 22:06:06.395 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:06:06.507 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:06:27.869 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 12428 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:06:27.872 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:06:28.904 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:06:29.211 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:06:29.212 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:06:29.212 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:06:29.212 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:06:29.214 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:06:29.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:06:29.223 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:06:29.223 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:06:29.314 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:06:29.314 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1393 ms
+2022-04-16 22:06:30.676 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:06:31.010 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:06:31.026 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:06:31.029 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:06:32.557 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:06:33.921 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:06:34.006 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:06:34.027 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:06:34.084 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:06:35.413 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:06:35.413 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:06:35.422 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:06:35.451 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:06:35.582 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:06:35.608 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 9.913 seconds (JVM running for 11.154)
+2022-04-16 22:06:39.717 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:06:39.717 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:06:39.719 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:06:39.816 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:06:39.916 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:11:46.298 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 13860 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:11:46.302 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:11:47.411 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:11:47.720 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:11:47.721 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:11:47.721 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:11:47.721 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:11:47.724 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:11:47.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:11:47.732 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:11:47.732 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:11:47.834 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:11:47.834 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1480 ms
+2022-04-16 22:11:49.298 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:11:49.631 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:11:49.649 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:11:49.653 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:11:51.191 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:11:52.545 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:11:52.630 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:11:52.649 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:11:52.699 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:11:54.077 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:11:54.077 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:11:54.087 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:11:54.117 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:11:54.247 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:11:54.273 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.2 seconds (JVM running for 11.622)
+2022-04-16 22:12:13.686 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:12:13.686 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:12:13.688 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:12:13.801 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:12:13.909 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:15:28.692 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 8652 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:15:28.695 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:15:29.754 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:15:30.066 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:15:30.067 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:15:30.067 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:15:30.067 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:15:30.070 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:15:30.077 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:15:30.078 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:15:30.078 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:15:30.168 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:15:30.168 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1423 ms
+2022-04-16 22:15:31.576 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:15:31.908 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:15:31.925 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:15:31.928 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:15:33.499 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:15:34.864 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:15:34.952 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:15:34.973 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:15:35.033 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:15:36.373 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:15:36.373 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:15:36.398 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:15:36.487 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:15:36.728 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:15:36.766 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.236 seconds (JVM running for 11.506)
+2022-04-16 22:15:38.283 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:15:38.284 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:15:38.285 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:15:38.389 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:15:38.485 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:20:19.960 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 5380 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:20:19.963 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:20:20.982 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:20:21.283 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:20:21.284 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:20:21.284 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:20:21.284 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:20:21.287 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:20:21.295 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:20:21.295 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:20:21.295 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:20:21.393 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:20:21.394 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1384 ms
+2022-04-16 22:20:22.756 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:20:23.104 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:20:23.123 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:20:23.127 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:20:24.703 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:20:26.064 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:20:26.149 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:20:26.169 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:20:26.219 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:20:27.575 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:20:27.575 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:20:27.584 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:20:27.613 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:20:27.747 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:20:27.772 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 9.909 seconds (JVM running for 11.078)
+2022-04-16 22:20:35.898 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:20:35.899 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:20:35.900 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:20:36.002 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:20:36.098 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:21:04.038 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 8384 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:21:04.041 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:21:05.167 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:21:05.471 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:21:05.472 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:21:05.473 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:21:05.473 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:21:05.475 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:21:05.483 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:21:05.483 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:21:05.483 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:21:05.583 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:21:05.584 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1494 ms
+2022-04-16 22:21:06.969 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:21:07.330 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:21:07.348 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:21:07.351 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:21:08.871 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:21:10.231 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:21:10.315 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:21:10.335 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:21:10.382 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:21:11.713 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:21:11.713 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:21:11.723 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:21:11.752 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:21:11.881 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:21:11.905 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.067 seconds (JVM running for 11.181)
+2022-04-16 22:21:30.825 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:21:30.826 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:21:30.827 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:21:30.891 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:21:31.008 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:23:13.841 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 3704 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:23:13.846 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:23:14.860 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:23:15.224 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:23:15.225 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:23:15.225 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:23:15.225 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:23:15.228 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:23:15.235 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:23:15.236 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:23:15.236 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:23:15.328 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:23:15.329 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1434 ms
+2022-04-16 22:23:16.784 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:23:17.110 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:23:17.126 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:23:17.129 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:23:18.649 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:23:20.005 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:23:20.089 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:23:20.109 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:23:20.157 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:23:21.485 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:23:21.485 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:23:21.495 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:23:21.527 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:23:21.658 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:23:21.682 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.001 seconds (JVM running for 11.152)
+2022-04-16 22:23:38.888 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:23:38.888 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:23:38.889 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:23:38.954 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:23:39.046 [http-nio-8001-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:26:10.571 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 14644 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:26:10.575 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:26:11.595 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=7855d88d-1a06-30b9-8837-69f12885181c
+2022-04-16 22:26:12.005 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:26:12.006 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:26:12.006 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:26:12.006 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:26:12.008 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:26:12.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:26:12.017 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:26:12.017 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:26:12.116 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:26:12.117 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1489 ms
+2022-04-16 22:26:13.500 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:26:13.885 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:26:13.912 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:26:13.917 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:26:15.511 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:26:16.881 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:26:16.980 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:26:16.999 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:26:17.046 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:26:18.380 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:26:18.380 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:26:18.389 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:26:18.417 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:26:18.549 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:26:18.574 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 10.143 seconds (JVM running for 11.541)
+2022-04-16 22:26:23.380 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:26:23.380 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:26:23.382 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 22:26:23.500 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:26:23.602 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:27:04.763 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 3564 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:27:04.766 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:27:05.794 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:27:06.111 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:27:06.112 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:27:06.112 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:27:06.112 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:27:06.115 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:27:06.122 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:27:06.123 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:27:06.123 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:27:06.220 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:27:06.220 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+2022-04-16 22:27:07.582 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:27:07.911 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:27:07.926 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:27:07.929 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:27:09.467 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:27:10.829 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:27:10.913 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:27:10.933 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:27:10.975 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:27:12.299 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:27:12.299 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:27:12.309 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:27:12.339 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:27:12.469 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:27:12.493 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 9.837 seconds (JVM running for 10.991)
+2022-04-16 22:27:19.068 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:27:19.069 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:27:19.070 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2022-04-16 22:27:19.178 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:27:19.280 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-04-16 22:33:52.591 [main] INFO  com.tuzhi.edu_service.EduApplication - Starting EduApplication using Java 1.8.0_181 on DESKTOP-3MRPDJE with PID 14008 (D:\项目\谷粒学院\guli_parent\service\service_edu\target\classes started by Lenovo in D:\项目\谷粒学院\guli_parent)
+2022-04-16 22:33:52.594 [main] INFO  com.tuzhi.edu_service.EduApplication - The following 1 profile is active: "dev"
+2022-04-16 22:33:53.590 [main] INFO  o.springframework.cloud.context.scope.GenericScope - BeanFactory id=660e4bca-2f4a-35bf-8e7c-26afe5b6fd6b
+2022-04-16 22:33:53.890 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-04-16 22:33:53.891 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.31] using APR version [1.7.0].
+2022-04-16 22:33:53.891 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+2022-04-16 22:33:53.891 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-04-16 22:33:53.894 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1l  24 Aug 2021]
+2022-04-16 22:33:53.901 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:33:53.902 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-04-16 22:33:53.902 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-04-16 22:33:53.999 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-04-16 22:33:54.000 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1360 ms
+2022-04-16 22:33:55.399 [main] INFO  o.s.cloud.openfeign.FeignClientFactoryBean - For 'service-vod' URL not provided. Will try picking an instance via load-balancing.
+2022-04-16 22:33:55.731 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-04-16 22:33:55.747 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:33:55.750 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2022-04-16 22:33:57.263 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:33:58.639 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:33:58.723 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-04-16 22:33:58.743 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-04-16 22:33:58.800 [main] INFO  o.s.c.alibaba.nacos.registry.NacosServiceRegistry - nacos registry, serve-edu 192.168.153.1:8001 register finished
+2022-04-16 22:34:00.161 [main] INFO  org.springframework.cloud.commons.util.InetUtils - Cannot determine local hostname
+2022-04-16 22:34:00.161 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-04-16 22:34:00.171 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-04-16 22:34:00.201 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-04-16 22:34:00.347 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: pageTeacherConditoinUsingPOST_1
+2022-04-16 22:34:00.373 [main] INFO  com.tuzhi.edu_service.EduApplication - Started EduApplication in 9.905 seconds (JVM running for 11.067)
+2022-04-16 22:34:04.543 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 22:34:04.543 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-04-16 22:34:04.545 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2022-04-16 22:34:04.661 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-04-16 22:34:04.757 [http-nio-8001-exec-2] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.

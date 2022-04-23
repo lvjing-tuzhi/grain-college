@@ -12,6 +12,7 @@
         <module>service_edu</module>
         <module>service_oss</module>
         <module>service_vod</module>
+        <module>service_msm</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>service</artifactId>
