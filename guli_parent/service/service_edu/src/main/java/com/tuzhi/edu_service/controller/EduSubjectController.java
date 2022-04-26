@@ -19,10 +19,11 @@ import java.util.List;
  * @author tuzhi
  * @since 2022-04-06
  */
+
+@Api(tags = "课程分类接口")
 @RestController
 @RequestMapping("/eduservice/eduSubject")
-@CrossOrigin
-@Api(tags = "课程分类接口")
+//@CrossOrigin //网关加了全局配置
 public class EduSubjectController {
 
     @Autowired

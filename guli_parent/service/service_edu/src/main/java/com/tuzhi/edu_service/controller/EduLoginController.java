@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "用户接口")
 @RestController
 @RequestMapping("/eduservice/user")
-@CrossOrigin
+//@CrossOrigin //网关加了全局配置
 public class EduLoginController {
 
     @ApiOperation("登录接口")

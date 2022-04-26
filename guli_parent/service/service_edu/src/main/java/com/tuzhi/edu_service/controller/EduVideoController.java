@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 @Api(tags = "小节接口")
 @RestController
 @RequestMapping("/eduservice/eduVideo")
-@CrossOrigin
+//@CrossOrigin //网关加了全局配置
 public class EduVideoController {
 
     @Autowired

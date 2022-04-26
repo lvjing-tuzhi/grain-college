@@ -40,7 +40,7 @@ import java.util.List;
 @Api(tags = "课程接口")
 @RestController
 @RequestMapping("/eduservice/eduCourse")
-@CrossOrigin
+//@CrossOrigin //网关加了全局配置
 public class EduCourseController {
 
     @Autowired

@@ -22,7 +22,7 @@ import java.util.List;
 @Api(tags = "章节接口")
 @RestController
 @RequestMapping("/eduservice/eduChapter")
-@CrossOrigin
+//@CrossOrigin //网关加了全局配置
 public class EduChapterController {
 
     @Autowired

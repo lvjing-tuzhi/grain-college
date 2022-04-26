@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 @Api(tags = "验证码接口")
 @RestController
 @RequestMapping("/edumsm/msm")
-@CrossOrigin
+//@CrossOrigin //网关加了全局配置
 public class MsmController {
 
     @Autowired

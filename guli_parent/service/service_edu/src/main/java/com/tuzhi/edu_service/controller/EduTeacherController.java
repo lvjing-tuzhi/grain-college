@@ -24,10 +24,10 @@ import java.util.List;
  * @author tuzhi
  * @since 2022-03-06
  */
+@Api(tags = "教师接口")
 @RestController
 @RequestMapping("/eduservice/teacher")
-@Api(tags = "教师接口")
-@CrossOrigin
+//@CrossOrigin //网关加了全局配置
 public class EduTeacherController {
 
     @Autowired
