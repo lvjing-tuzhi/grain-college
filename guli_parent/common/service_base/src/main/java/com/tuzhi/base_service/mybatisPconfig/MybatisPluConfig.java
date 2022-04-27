@@ -1,4 +1,4 @@
-package com.tuzhi.ucenter_service.config;
+package com.tuzhi.base_service.mybatisPconfig;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;

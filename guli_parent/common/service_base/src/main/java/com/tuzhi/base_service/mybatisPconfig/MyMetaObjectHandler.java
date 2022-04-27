@@ -1,4 +1,5 @@
-package com.tuzhi.edu_service.handle;
+package com.tuzhi.base_service.mybatisPconfig;
+
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import org.apache.ibatis.reflection.MetaObject;

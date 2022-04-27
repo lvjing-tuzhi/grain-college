@@ -1,2 +1,0 @@
-2022-04-10 14:36:30.912 [http-nio-8001-exec-5] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Required request body is missing: public com.tuzhi.utilcommon.result.Result com.tuzhi.edu_service.controller.EduTeacherController.addTeacher(com.tuzhi.edu_service.pojo.EduTeacher)
-2022-04-10 14:38:10.095 [http-nio-8001-exec-9] ERROR c.t.b.exceptionhandler.GlobalExceptionHandler - Required request body is missing: public com.tuzhi.utilcommon.result.Result com.tuzhi.edu_service.controller.EduTeacherController.addTeacher(com.tuzhi.edu_service.pojo.EduTeacher)
